@@ -1,0 +1,22 @@
+1.0  06     Volume fraction, chain length for A homopolymers
+1.0         CG_ratio 
+
+0.0     Volume fraction nanoparticles
+1.5     Rp, nanoparticle radius
+0.3     Xi, nanoparticle interface width
+0       particle_type flag (0 = neutral, 1 = type A)
+
+0.00609 C, in units normalized by homopoly A properties
+2.0     B, in units normalized by homopoly A
+1  1   Monomer mobility/diffusion coefficients
+
+5. 5. 5  Lx, Ly, Lz
+35  35  35    Nx, Ny, Nz
+0.002       time step
+2           grid interpolation order
+
+000001       simulation steps
+001         print frequency
+000        pre-equilibration steps (chiAB = 0)
+1000 1000  sample_wait, sample_freq
+0           stress_frequency
